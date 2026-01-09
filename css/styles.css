@@ -372,6 +372,7 @@ img {
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .team-social-link:hover, 
 .team-social-link:focus {
   background-color: #31d0aa;
@@ -383,11 +384,7 @@ img {
 
 .team-social-icon {
   fill: #ffffff;
-  display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
+ }
 
 
 
