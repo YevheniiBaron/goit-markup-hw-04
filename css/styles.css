@@ -230,7 +230,8 @@ img {
   gap: 24px;
 }
 
-.features-title {
+.visually-hidden {
+
   position: absolute;
   width: 1px;
   height: 1px;
@@ -265,6 +266,25 @@ img {
 
   width: 264px;
 }
+
+.features-icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  margin-bottom: 8px;
+
+}
+
+.features-icon {}
+
+
+
+
 
 .team {
   background-color: #F4F4FD;
@@ -336,6 +356,41 @@ img {
   text-align: center;
   color: #434455;
 }
+
+.team-social-list {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+.team-social-link {
+  background-color: #4d5ae5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team-social-link:hover, 
+.team-social-link:focus {
+  background-color: #31d0aa;
+}
+
+
+
+ 
+
+.team-social-icon {
+  fill: #ffffff;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
 
 .portfolio {
   padding-top: 120px;

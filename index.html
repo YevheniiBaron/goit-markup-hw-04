@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- #region HEAD -->
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,8 +16,10 @@
   <link rel="stylesheet" href="./css/styles.css" />
   <title>Web Studio</title>
 </head>
+<!-- #endregion -->
 
 <body>
+  <!-- #region HEADER -->
   <header class="header">
     <div class="header-container container">
       <nav class="navigation">
@@ -43,19 +47,27 @@
       </address>
     </div>
   </header>
+  <!-- #endregion -->
   <main>
+    <!-- #region HERO -->
     <section class="hero">
       <div class="hero-container container">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button type="button" class="hero-button">Order&nbsp;Service</button>
       </div>
     </section>
-
+    <!-- #endregion -->
+    <!-- #region   FEATURES -->
     <section class="features">
       <div class="features-container container">
-        <h2 class="features-title">Features</h2>
+        <h2 class="visually-hidden">Features</h2>
         <ul class="features-list">
           <li class="features-item">
+            <div class="features-icon-box">
+              <svg class="features-icon" width="64" height="64">
+                <use href="/images/icons.svg#icon-Strategy"></use>
+              </svg>
+            </div>
             <h3 class="features-subtitle">Strategy</h3>
             <p class="features-text">
               Our goal is to identify the business problem to walk away with
@@ -63,6 +75,11 @@
             </p>
           </li>
           <li class="features-item">
+            <div class="features-icon-box">
+              <svg class="features-icon" width="64" height="64">
+                <use href="/images/icons.svg#icon-punktuality"></use>
+              </svg>
+            </div>
             <h3 class="features-subtitle">Punctuality</h3>
             <p class="features-text">
               Bring the key message to the brand's audience for the best price
@@ -70,6 +87,11 @@
             </p>
           </li>
           <li class="features-item">
+            <div class="features-icon-box">
+              <svg class="features-icon" width="64" height="64">
+                <use href="/images/icons.svg#icon-diagram"></use>
+              </svg>
+            </div>
             <h3 class="features-subtitle">Diligence</h3>
             <p class="features-text">
               Research and confirm brands that present the strongest digital
@@ -77,6 +99,11 @@
             </p>
           </li>
           <li class="features-item">
+            <div class="features-icon-box">
+              <svg class="features-icon" width="64" height="64">
+                <use href="/images/icons.svg#icon-tehnologies"></use>
+              </svg>
+            </div>
             <h3 class="features-subtitle">Technologies</h3>
             <p class="features-text">
               Design practice focused on digital experiences. We bring forth a
@@ -86,7 +113,8 @@
         </ul>
       </div>
     </section>
-
+    <!-- #endregion -->
+    <!-- #region OUR TEAM -->
     <section class="team">
       <div class="team-container container">
         <h2 class="team-title">Our&nbsp;Team</h2>
@@ -96,13 +124,72 @@
             <div class="team-content-wrapper">
               <h3 class="team-subtitle">Mark Guerrero</h3>
               <p class="team-text">Product Designer</p>
-            </div>
+              <ul class="team-social-list">
+                <li class="team-social-item">
+                  <a href="https://www.instagram.com" class="team-social-link">
+                    <svg class="team-social-icon" width="16" height="16">
+                      <use href="/images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-item">
+                  <a href="https://x.com" class="team-social-link">
+                    <svg class="team-social-icon" width="16" height="16">
+                      <use href="/images/icons.svg#icon-tweeteer"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-item">
+                  <a href="https://facebook.com" class="team-social-link">
+                    <svg class="team-social-icon" width="16" height="16">
+                      <use href="/images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-item">
+                  <a href="https://linkedin.com" class="team-social-link">
+                    <svg class="team-social-icon" width="16" height="16">
+                      <use href="/images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
           </li>
           <li class="team-card">
             <img src="./images/tom.jpg" alt="Tom Ford" width="264" />
             <div class="team-content-wrapper">
               <h3 class="team-subtitle">Tom Ford</h3>
               <p class="team-text">Frontend Developer</p>
+              <ul class="team-social-list">
+                <li class="team-social-item">
+                  <a href="https://www.instagram.com" class="team-social-link">
+                    <svg class="team-social-icon" width="16" height="16">
+                      <use href="/images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-item">
+                  <a href="https://x.com" class="team-social-link">
+                    <svg class="team-social-icon" width="16" height="16">
+                      <use href="/images/icons.svg#icon-tweeteer"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-item">
+                  <a href="https://facebook.com" class="team-social-link">
+                    <svg class="team-social-icon" width="16" height="16">
+                      <use href="/images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-item">
+                  <a href="https://linkedin.com" class="team-social-link">
+                    <svg class="team-social-icon" width="16" height="16">
+                      <use href="/images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </div>
           </li>
           <li class="team-card">
@@ -110,6 +197,36 @@
             <div class="team-content-wrapper">
               <h3 class="team-subtitle">Camila Garcia</h3>
               <p class="team-text">Marketing</p>
+              <ul class="team-social-list">
+                <li class="team-social-item">
+                  <a href="https://www.instagram.com" class="team-social-link">
+                    <svg class="team-social-icon" width="16" height="16">
+                      <use href="/images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-item">
+                  <a href="https://x.com" class="team-social-link">
+                    <svg class="team-social-icon" width="16" height="16">
+                      <use href="/images/icons.svg#icon-tweeteer"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-item">
+                  <a href="https://facebook.com" class="team-social-link">
+                    <svg class="team-social-icon" width="16" height="16">
+                      <use href="/images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-item">
+                  <a href="https://linkedin.com" class="team-social-link">
+                    <svg class="team-social-icon" width="16" height="16">
+                      <use href="/images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </div>
           </li>
           <li class="team-card">
@@ -117,12 +234,43 @@
             <div class="team-content-wrapper">
               <h3 class="team-subtitle">Daniel Wilson</h3>
               <p class="team-text">UI Designer</p>
+              <ul class="team-social-list">
+                <li class="team-social-item">
+                  <a href="https://www.instagram.com" class="team-social-link">
+                    <svg class="team-social-icon" width="16" height="16">
+                      <use href="/images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-item">
+                  <a href="https://x.com" class="team-social-link">
+                    <svg class="team-social-icon" width="16" height="16">
+                      <use href="/images/icons.svg#icon-tweeteer"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-item">
+                  <a href="https://facebook.com" class="team-social-link">
+                    <svg class="team-social-icon" width="16" height="16">
+                      <use href="/images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-social-item">
+                  <a href="https://linkedin.com" class="team-social-link">
+                    <svg class="team-social-icon" width="16" height="16">
+                      <use href="/images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </div>
           </li>
         </ul>
       </div>
     </section>
-
+    <!-- #endregion -->
+    <!-- #region PORTFOLIO -->
     <section class="portfolio">
       <div class="portfolio-container container">
         <h2 class="portfolio-title">Our Portfolio</h2>
@@ -175,8 +323,9 @@
         </ul>
       </div>
     </section>
+    <!-- #endregion -->
   </main>
-
+  <!-- #region FOOTER -->
   <footer class="footer">
     <div class="footer-container container">
       <a href="./index.html" class="footer-logo header-logo">Web<span class="footer-logo-span">Studio</span></a>
@@ -186,6 +335,7 @@
       </p>
     </div>
   </footer>
+  <!-- #endregion -->
 </body>
 
 </html>
