@@ -362,32 +362,30 @@ img {
   gap: 16px;
   margin-top: 16px;
 }
+
 .team-social-link {
   background-color: #4d5ae5;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-social-link:hover, 
+.team-social-link:hover,
 .team-social-link:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 
 
- 
+
 
 .team-social-icon {
   fill: #ffffff;
- }
-
-
-
+}
 
 .portfolio {
   padding-top: 120px;
