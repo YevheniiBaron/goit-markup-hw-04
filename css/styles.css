@@ -159,7 +159,7 @@ img {
   max-width: 1440px;
   width: 100%;
   height: 600px;
-  margin:0 auto;
+  margin: 0 auto;
   background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office.jpg");
   background-size: cover;
   background-position: center;
@@ -380,7 +380,7 @@ img {
 }
 
 .team-social-icon {
-  fill:#f4f4fd;
+  fill: #f4f4fd;
 }
 
 .portfolio {
@@ -516,7 +516,8 @@ img {
   letter-spacing: 0.02em;
 }
 
-.footer-wrapper-socialmedia-text {
+.footer-wrapper-socialmedia-text,
+.footer-form-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -555,3 +556,62 @@ img {
   background-color: #31d0aa;
 
 }
+
+.footer-form-wrap {
+  margin-left: auto;
+
+
+}
+.footer-form {
+  display: flex;
+  gap: 24px;
+
+}
+
+.footer-input {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  background-color: #2e2f42;
+  padding: 8px 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff; 
+  margin-bottom: 16px; 
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
+}
+
+.footer-btn{
+  border-radius: 4px;
+    padding-block: 8px;
+    padding-inline: 24px;
+    width: 165px;
+    height: 40px;
+    background-color: #4d5ae5;
+    font-family: inherit;
+    font-weight: 500; 
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-input::placeholder {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #8e8f99;
+}
+
+.footer-input:focus {
+  outline: none;
+  border-color: #31d0aa;
+}
+
+
